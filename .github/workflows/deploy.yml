@@ -1,0 +1,52 @@
+name: Deploy Sphinx documentation to Pages
+
+on:
+  push:
+    branches: ["main"] # Chạy khi có push vào nhánh main
+  workflow_dispatch:   # Cho phép chạy thủ công từ tab Actions
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install sphinx sphinx_book_theme # Thêm các extension bạn dùng ở đây
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Build Sphinx
+        # Chạy build với source là ./source và output vào thư mục ./build
+        run: sphinx-build -b html ./source ./build
+
+      - name: Create .nojekyll
+        # Tạo file trống .nojekyll trong thư mục build
+        run: touch ./build/.nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build # Upload nội dung trong thư mục build
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
