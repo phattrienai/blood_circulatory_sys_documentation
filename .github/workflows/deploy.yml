@@ -31,10 +31,6 @@ jobs:
         # Chạy build với source là ./source và output vào thư mục ./build
         run: sphinx-build -b html ./source ./build
 
-      - name: Create .nojekyll
-        # Tạo file trống .nojekyll trong thư mục build
-        run: touch ./build/.nojekyll
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
