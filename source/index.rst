@@ -17,5 +17,7 @@
 .. include:: blood.rst
 .. include:: blood-plasma.rst
 .. include:: erythrocytes.rst
+.. include:: leukocytes.rst
+.. include:: platelets.rst
 .. include:: circulatory_system.rst
 

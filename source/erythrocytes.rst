@@ -1,5 +1,5 @@
-Hồng cầu (Erythrocytes)
--------------------------
+:color:red:`Hồng cầu (Erythrocytes)`
+------------------------------------
 
 .. revealjs-section::
    :data-background-image: _static/vecteezy_ai-generated-blood-cells-close-up-leukocytes-and_37857862.jpeg
