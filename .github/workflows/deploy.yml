@@ -29,7 +29,7 @@ jobs:
 
       - name: Build Sphinx
         # Chạy build với source là ./source và output vào thư mục ./build
-        run: sphinx-build -b html ./source ./build
+        run: sphinx-build -b revealjs ./source ./build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
