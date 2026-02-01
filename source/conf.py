@@ -29,7 +29,10 @@ exclude_patterns = []
 # html_theme = 'alabaster'
 # html_theme = 'furo'
 # html_theme = "sphinx_rtd_theme"
-html_theme = "sphinx_book_theme"
+# html_theme = "sphinx_book_theme"
+
+html_theme = "sphinx_revealjs"
+
 html_static_path = ['_static']
 
 # ============================================================
@@ -119,13 +122,13 @@ revealjs_script_conf = {
     "progress": True,
     "slideNumber": True,
     "hash": True,
-    "center": False,
+    "center": True,
     "transition": "slide",  # none / fade / slide / convex / concave / zoom
-    "width": 1280,
-    "height": 720,
-    "margin": 0.04,
-    "minScale": 1,
-    "maxScale": 1,
+#     "width": 1280,
+#     "height": 720,
+#     "margin": 0.04,
+#     "minScale": 1,
+#     "maxScale": 1,
 }
 
 # ------------------------------------------------------------
