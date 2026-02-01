@@ -1,4 +1,4 @@
-:color:red:`Máu là gì?`
+:color:white:`Máu là gì?`
 ----------------------------
 
 .. revealjs-section::
