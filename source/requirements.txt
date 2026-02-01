@@ -1,0 +1,3 @@
+Sphinx
+atsphinx-color-text
+sphinx-revealjs
