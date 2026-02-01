@@ -11,8 +11,10 @@ This is a documentation project for the subject ``Blood and the Circulatory Syst
    - source venv/bin/active (for Linux, MACOS)
    - venv\Scripts\activate.bat (for Windows)
 3. **Install dependences inside venv**
-   - pip install sphinx sphinx-revealjs
+   - pip install sphinx sphinx-revealjs atsphinx-color-text
 4. **Generate documentation**
-   - make html (see sphinx help for more choices)
+   - make clean revealjs
 5. **Open**
-   - open file build/html/index.html
+   - Open file at build/revealjs/index.html 
+
+6. The latest document is deploying at: [blood_circulatory_sys_documentation/](https://phattrienai.github.io/blood_circulatory_sys_documentation/)
