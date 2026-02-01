@@ -2,11 +2,18 @@
   font-size: 40px;
 }
 
+.reveal h1 {
+    text-align: center;
+}
+
+.reveal h2 {
+    text-align: center;
+}
+
 /* align left */
 .reveal .slides section {
   text-align: left;
 }
-
 
 .reveal .custom-white-text {
     color: white;

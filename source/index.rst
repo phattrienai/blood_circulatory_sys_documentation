@@ -6,7 +6,9 @@
 Máu và Hệ Tuần Hoàn trong cơ thể con người.
 ============================================
 
-(Nguyễn Trí)
+.. raw:: html
+
+   <p style="font-size: 1.0em;text-align: center;">(Nguyễn Trí)</p>
 
 .. include:: introduction.rst
 .. include:: blood.rst
