@@ -10,9 +10,7 @@ Huyết tương
     * Thành phần chủ yếu là nước (90–92%), ngoài ra có protein (albumin, globulin, fibrinogen), chất điện giải, hormone, enzyme, chất dinh dưỡng và sản phẩm thải.
     * Chức năng:
 
-    .. raw:: html
-
-        <p style="font-size: 0.7em;text-align: center;">1. Vận chuyển chất dinh dưỡng, hormone, khí hòa tan.</p>
-        <p style="font-size: 0.7em;text-align: center;">2. Duy trì áp suất thẩm thấu và cân bằng pH.</p>
-        <p style="font-size: 0.7em;text-align: center;">3. Tham gia quá trình đông máu (nhờ fibrinogen).</p>
+      + Vận chuyển chất dinh dưỡng, hormone, khí hòa tan.
+      + Duy trì áp suất thẩm thấu và cân bằng pH.
+      + Tham gia quá trình đông máu (nhờ fibrinogen).
 
