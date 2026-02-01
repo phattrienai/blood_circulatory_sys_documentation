@@ -121,12 +121,11 @@ revealjs_script_conf = {
     "hash": True,
     "center": False,
     "transition": "slide",  # none / fade / slide / convex / concave / zoom
-    "backgroundTransition": "fade",
-    "width": "100%",
-    "height": "100%",
-    "margin": 0.05,
+    "width": 1280,
+    "height": 720,
+    "margin": 0.04,
     "minScale": 1,
-    "maxScale": 1.5,
+    "maxScale": 1,
 }
 
 # ------------------------------------------------------------
