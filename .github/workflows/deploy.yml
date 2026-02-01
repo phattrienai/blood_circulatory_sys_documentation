@@ -2,8 +2,8 @@ name: Deploy Sphinx documentation to Pages
 
 on:
   push:
-    branches: ["main"] # Chạy khi có push vào nhánh main
-  workflow_dispatch:   # Cho phép chạy thủ công từ tab Actions
+    branches: ["main"] # Run whenever the branch main changes
+  workflow_dispatch:   # Allow run from the tab Actions manually
 
 permissions:
   contents: read
@@ -24,17 +24,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_book_theme # Thêm các extension bạn dùng ở đây
+          pip install sphinx sphinx-revealjs
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Build Sphinx
-        # Chạy build với source là ./source và output vào thư mục ./build
         run: sphinx-build -b revealjs ./source ./build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build # Upload nội dung trong thư mục build
+          path: ./build # Upload content in the folder build
 
   deploy:
     environment:
