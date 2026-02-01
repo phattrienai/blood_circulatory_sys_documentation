@@ -11,7 +11,7 @@ This is a documentation project for the subject ``Blood and the Circulatory Syst
    - source venv/bin/active (for Linux, MACOS)
    - venv\Scripts\activate.bat (for Windows)
 3. **Install dependences inside venv**
-   - pip install -r requirements.txt
+   - pip install sphinx sphinx-revealjs
 4. **Generate documentation**
    - make html (see sphinx help for more choices)
 5. **Open**

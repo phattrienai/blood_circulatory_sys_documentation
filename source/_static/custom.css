@@ -1,0 +1,27 @@
+/* Target the main slide title specifically */
+.reveal h1 {
+    font-family: 'Your Chosen Font', sans-serif;
+    font-size: 2.5em;        /* Adjust size as needed */
+    color: #8b0000;           /* Example: Dark red for 'Blood' theme */
+    text-transform: none;    /* Optional: Disable default uppercase */
+}
+
+.reveal .custom-white-text {
+    color: white;
+}
+
+.reveal .custom-blue-text {
+    color: blue;
+}
+
+.reveal .custom-aqua-text {
+    color: aqua;
+}
+
+.reveal .custom-yellow-text {
+    color: yellow;
+}
+
+.reveal .custom-navy-text {
+    color: navy;
+}
