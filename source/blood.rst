@@ -4,7 +4,7 @@
 .. revealjs-section::
    :data-background-image: _static/vecteezy_red-blood-cells-in-an-artery-or-blood-vessel-flow-inside_6667795.jpg
 
-.. container:: custom-white-text
+.. container:: custom-aliceblue-text
 
     * Máu là một loại mô lỏng đặc biệt trong cơ thể người, có nhiệm vụ:
 

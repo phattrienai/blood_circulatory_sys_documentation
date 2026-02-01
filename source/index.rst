@@ -3,8 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Máu và Hệ Tuần Hoàn trong cơ thể con người.
-============================================
+:color:red:`Máu và Hệ Tuần Hoàn trong cơ thể con người.`
+=============================================================
+
+.. revealjs-section::
+   :data-background-image: _static/vecteezy_ai-generated-medical-background-human-body-3d-scan_36393254.jpeg
 
 .. raw:: html
 
