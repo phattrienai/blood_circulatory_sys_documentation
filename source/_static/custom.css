@@ -1,6 +1,12 @@
 .reveal {
-  font-size: 36px;
+  font-size: 40px;
 }
+
+/* align left */
+.reveal .slides section {
+  text-align: left;
+}
+
 
 .reveal .custom-white-text {
     color: white;
